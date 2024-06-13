@@ -1,0 +1,101 @@
+import { OnInit, ChangeDetectorRef, ElementRef } from '@angular/core';
+import { SetupService } from './setup.service';
+import { NbDialogService } from '@nebular/theme';
+import { ElectronService, LoggerService } from '../electron/services';
+import { ErrorHandlerService, Store } from '../services';
+import { LanguageSelectorComponent } from '../language/language-selector.component';
+import { TranslateService } from '@ngx-translate/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { IProxyConfig } from '@gauzy/contracts';
+export declare class SetupComponent implements OnInit {
+    private setupService;
+    private _cdr;
+    private dialogService;
+    private electronService;
+    private _errorHandlerService;
+    private _loggerServer;
+    private _translateService;
+    private _store;
+    private readonly _environment;
+    private readonly _domSanitizer;
+    btnDialogOpen: ElementRef<HTMLElement>;
+    languageSelector: LanguageSelectorComponent;
+    logBox: ElementRef;
+    isSaving: boolean;
+    isCheckConnection: boolean;
+    logContents: string[];
+    constructor(setupService: SetupService, _cdr: ChangeDetectorRef, dialogService: NbDialogService, electronService: ElectronService, _errorHandlerService: ErrorHandlerService, _loggerServer: LoggerService, _translateService: TranslateService, _store: Store, _environment: any, _domSanitizer: DomSanitizer);
+    appName: string;
+    loading: Boolean;
+    iconAw: string;
+    statusIcon: string;
+    awCheck: boolean;
+    awAPI: String;
+    buttonSave: boolean;
+    gauzyIcon: SafeResourceUrl;
+    desktopFeatures: any;
+    connectivity: any;
+    thirdParty: any;
+    databaseDriver: any;
+    serverConfig: any;
+    databaseConfig: any;
+    proxyOptions: IProxyConfig;
+    showPassword: boolean;
+    progressSetup: number;
+    progressMessage: string;
+    onProgress: boolean;
+    defaultMessage: any;
+    dialogData: any;
+    runApp: boolean;
+    welcomeTitle: string;
+    welcomeLabel: string;
+    welcomeText(): void;
+    connectivityChange(event: any, key: any): void;
+    databaseDriverChange(event: any, key: any): void;
+    getThirdPartyConfig(): {
+        aw: any;
+        awHost: String;
+        wakatime: any;
+    };
+    getServerConfig(): any;
+    getDataBaseConfig(): {
+        postgres: {
+            dbHost: any;
+            dbPort: any;
+            dbName: any;
+            dbUsername: any;
+            dbPassword: any;
+        };
+        db: string;
+    } | {
+        db: string;
+        postgres?: undefined;
+    } | {
+        postgres?: undefined;
+        db?: undefined;
+    };
+    getFeature(): {
+        gauzyWindow: any;
+        timeTrackerWindow: any;
+    };
+    saveAndRun(): Promise<void>;
+    saveChange(): void;
+    pingAw(): Promise<void>;
+    validation(): void;
+    openLink(link: any): void;
+    getInputType(): "text" | "password";
+    toggleShowPassword(): void;
+    checkDatabaseConn(): void;
+    checkServerConn(): void;
+    checkConnection(notRun?: boolean): void;
+    open(hasBackdrop: boolean): void;
+    openfromhere(hasBackdrop: boolean): void;
+    ngOnInit(): void;
+    get isDesktopTimer(): boolean;
+    get isDesktop(): boolean;
+    get isServer(): boolean;
+    get isServerApi(): boolean;
+    private scrollToBottom;
+    onChangeProxyConfig(config: IProxyConfig): void;
+}
+//# sourceMappingURL=setup.component.d.ts.map

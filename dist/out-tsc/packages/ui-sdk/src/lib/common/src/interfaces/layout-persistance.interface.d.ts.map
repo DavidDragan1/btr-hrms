@@ -1,0 +1,1 @@
+{"version":3,"file":"layout-persistance.interface.d.ts","sourceRoot":"","sources":["../../../../../../../../../packages/ui-sdk/src/lib/common/src/interfaces/layout-persistance.interface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,yBAAyB,CAAC;AAEvD,MAAM,WAAW,kBAAmB,SAAQ,YAAY;IACvD,IAAI,IAAI,YAAY,CAAC;IACrB,OAAO,CAAC,WAAW,EAAE,YAAY,GAAG,IAAI,CAAC;CACzC"}

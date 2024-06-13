@@ -1,0 +1,1 @@
+{"version":3,"file":"serializable.interface.js","sourceRoot":"","sources":["../../../../../../../../../packages/ui-sdk/src/lib/common/src/interfaces/serializable.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface Serializable<T> {\r\n\tserialize(): Partial<T>[] | void;\r\n\tdeSerialize(store?: Partial<T>[]): Partial<T>[];\r\n}\r\n"]}

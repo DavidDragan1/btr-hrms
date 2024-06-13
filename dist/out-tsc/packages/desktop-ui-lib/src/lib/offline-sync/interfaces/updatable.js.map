@@ -1,0 +1,1 @@
+{"version":3,"file":"updatable.js","sourceRoot":"","sources":["../../../../../../../../packages/desktop-ui-lib/src/lib/offline-sync/interfaces/updatable.ts"],"names":[],"mappings":"","sourcesContent":["import { Observable } from \"rxjs\";\r\n\r\nexport interface Updatable<T> {\r\n\tupdater$: Observable<T>;\r\n\tupdater: T;\r\n}\r\n"]}

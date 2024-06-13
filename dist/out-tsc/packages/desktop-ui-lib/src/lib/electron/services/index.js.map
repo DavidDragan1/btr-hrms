@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../../packages/desktop-ui-lib/src/lib/electron/services/index.ts"],"names":[],"mappings":";;;AAAA,sEAA4C;AAC5C,oEAA0C","sourcesContent":["export * from './electron/electron.service';\r\nexport * from './electron/logger.service';\r\n"]}

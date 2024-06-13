@@ -1,0 +1,1 @@
+{"version":3,"file":"activity-watch.util.d.ts","sourceRoot":"","sources":["../../../../../../../../packages/desktop-ui-lib/src/lib/integrations/activity-watch/activity-watch.util.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,+BAA+B,EAAE,MAAM,kBAAkB,CAAC;AACnE,OAAO,EAAE,mBAAmB,EAAE,MAAM,oBAAoB,CAAC;AAEzD,qBAAa,iBAAiB;WACf,YAAY,CAAC,OAAO,EAAE,+BAA+B,GAAG,mBAAmB;CAgCzF"}

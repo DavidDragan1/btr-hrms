@@ -1,0 +1,1 @@
+{"version":3,"file":"timer-icon-factory.d.ts","sourceRoot":"","sources":["../../../../../../../../../packages/desktop-ui-lib/src/lib/time-tracker/time-tracker-status/factory/timer-icon-factory.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,kBAAkB,CAAC;AAUrD,OAAO,EAAE,UAAU,EAAE,MAAM,2BAA2B,CAAC;AAEvD,qBAAa,gBAAgB;WACd,MAAM,CAAC,MAAM,EAAE,iBAAiB,GAAG,UAAU;CAkB3D"}

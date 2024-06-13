@@ -1,0 +1,1 @@
+{"version":3,"file":"view-queue-updater.js","sourceRoot":"","sources":["../../../../../../../../packages/desktop-ui-lib/src/lib/offline-sync/interfaces/view-queue-updater.ts"],"names":[],"mappings":"","sourcesContent":["export interface ViewQueueStateUpdater {\r\n\tinProgress: boolean;\r\n\tsize: number;\r\n}\r\n"]}

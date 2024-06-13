@@ -1,0 +1,1 @@
+{"version":3,"file":"ilinked-list-node.interface.js","sourceRoot":"","sources":["../../../../../../../../../packages/desktop-ui-lib/src/lib/offline-sync/interfaces/linked-list/ilinked-list-node.interface.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILinkedListNode<T> {\r\n\tnext: ILinkedListNode<T>;\r\n\tdata: T;\r\n}\r\n"]}

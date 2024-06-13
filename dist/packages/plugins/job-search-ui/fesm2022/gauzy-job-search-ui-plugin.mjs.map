@@ -1,0 +1,1 @@
+{"version":3,"file":"gauzy-job-search-ui-plugin.mjs","sources":["../../../../../packages/plugins/job-search-ui/src/lib/gauzy-job-search-ui-plugin.ts"],"sourcesContent":["/**\n * Generated bundle index. Do not edit.\n */\n\nexport * from './public-api';\n"],"names":[],"mappings":";AAAA;;AAEG;;;AAEH,OAA6B,CAAA,YAAA,CAAA,OAAA,CAAA,cAAA,CAAA,EAAA,OAAA,CAAA"}

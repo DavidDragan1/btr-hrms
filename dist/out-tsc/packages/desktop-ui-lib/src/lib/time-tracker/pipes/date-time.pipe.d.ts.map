@@ -1,0 +1,1 @@
+{"version":3,"file":"date-time.pipe.d.ts","sourceRoot":"","sources":["../../../../../../../../packages/desktop-ui-lib/src/lib/time-tracker/pipes/date-time.pipe.ts"],"names":[],"mappings":"AAAA,OAAO,EAAQ,aAAa,EAAE,MAAM,eAAe,CAAC;AAGpD,qBAGa,YAAa,YAAW,aAAa;IAC9C;;;;;OAKG;IACH,SAAS,CAAC,KAAK,EAAE,MAAM,EAAE,MAAM,CAAC,EAAE,MAAM,GAAG,MAAM;CAGpD"}

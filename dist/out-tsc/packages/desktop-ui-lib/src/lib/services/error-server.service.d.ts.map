@@ -1,0 +1,1 @@
+{"version":3,"file":"error-server.service.d.ts","sourceRoot":"","sources":["../../../../../../../packages/desktop-ui-lib/src/lib/services/error-server.service.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,sBAAsB,CAAC;AAGzD,qBAGa,kBAAkB;IAC9B,OAAO,CAAC,QAAQ,CAAS;;IAIzB,IAAW,OAAO,IAAI,GAAG,CAExB;IAED,IAAW,OAAO,CAAC,KAAK,EAAE,iBAAiB,EAE1C;CACD"}

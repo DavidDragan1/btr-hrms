@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../../../packages/desktop-ui-lib/src/lib/offline-sync/interfaces/linked-list/index.ts"],"names":[],"mappings":";;;AAAA,mEAAyC;AACzC,wEAA8C","sourcesContent":["export * from './ilinked-list.interface';\r\nexport * from './ilinked-list-node.interface';\r\n"]}

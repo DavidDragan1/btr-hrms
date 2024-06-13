@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../packages/desktop-ui-lib/src/lib/offline-sync/index.ts"],"names":[],"mappings":";;;AAAA,sDAA4B;AAC5B,uDAA6B;AAC7B,oEAA0C","sourcesContent":["export * from './concretes';\r\nexport * from './interfaces';\r\nexport * from './time-slot-queue.service';\r\n"]}

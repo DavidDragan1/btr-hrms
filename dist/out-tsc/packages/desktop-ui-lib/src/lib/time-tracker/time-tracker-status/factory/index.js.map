@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../../../packages/desktop-ui-lib/src/lib/time-tracker/time-tracker-status/factory/index.ts"],"names":[],"mappings":";;;AAAA,+DAAqC","sourcesContent":["export * from './timer-icon-factory';\r\n"]}

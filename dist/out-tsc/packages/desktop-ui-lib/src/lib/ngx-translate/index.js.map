@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../../packages/desktop-ui-lib/src/lib/ngx-translate/index.ts"],"names":[],"mappings":";;;AAAA,gEAAsC;AACtC,iEAAuC;AACvC,yEAA+C","sourcesContent":["export * from './http-loader.factory';\r\nexport * from './ngx-translate.module';\r\nexport * from './language-initializer.factory';\r\n"]}
