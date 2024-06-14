@@ -1,0 +1,55 @@
+{
+	"name": ".",
+	"$schema": "node_modules/nx/schemas/project-schema.json",
+	"projects": {
+		"gauzy-e2e": {
+			"tags": [],
+			"implicitDependencies": ["gauzy"]
+		},
+		"@gauzy/ui-sdk": {
+			"tags": []
+		},
+		"@gauzy/ui-config": {
+			"tags": []
+		},
+		"@gauzy/job-search-ui-plugin": {
+			"tags": []
+		},
+		"gauzy": {
+			"tags": []
+		},
+		"api": {
+			"tags": []
+		},
+		"desktop": {
+			"tags": []
+		},
+		"desktop-api": {
+			"tags": []
+		},
+		"desktop-ui": {
+			"tags": []
+		},
+		"api-desktop": {
+			"tags": []
+		},
+		"desktop-ui-lib": {
+			"tags": []
+		},
+		"desktop-timer": {
+			"tags": []
+		},
+		"gauzy-server": {
+			"tags": []
+		},
+		"gauzy-server-ui": {
+			"tags": []
+		},
+		"gauzy-server-api": {
+			"tags": []
+		},
+		"gauzy-api-server": {
+			"tags": []
+		}
+	}
+}

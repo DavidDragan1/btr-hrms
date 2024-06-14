@@ -1,0 +1,11 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"types": ["node", "jest"],
+		"emitDecoratorMetadata": true,
+		"target": "ES2022",
+		"experimentalDecorators": true
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["jest.config.ts"]
+}

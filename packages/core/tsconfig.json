@@ -1,0 +1,16 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"declaration": true,
+		"sourceMap": true,
+		"baseUrl": "./src",
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"types": ["node", "jest"],
+		"paths": {
+			"rxjs": ["node_modules/rxjs"],
+			"rxjs/*": ["node_modules/rxjs/*"]
+		}
+	},
+	"include": ["./src/**/*"]
+}
